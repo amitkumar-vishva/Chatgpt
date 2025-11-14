@@ -1,5 +1,5 @@
-import './App.css'
-const App = () => {
+import './Chatsection.css'
+const Chatsection = () => {
   return (
     <>
 
@@ -7,4 +7,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Chatsection
