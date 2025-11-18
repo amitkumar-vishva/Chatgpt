@@ -1,0 +1,5 @@
+.chatesection{
+    height: 100vh;
+    background-color: rgb(22, 32, 33);
+    flex:1;
+}

@@ -8,3 +8,11 @@
 #root{
     display: flex;
 }
+.light-mode{
+    --color:black;
+    --bg-color:white;
+}
+.dark-mode{
+    --color:white;
+    --bg-color:black;
+}

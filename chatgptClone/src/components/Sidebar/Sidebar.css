@@ -2,11 +2,47 @@
     padding: 20px 10px;
     height: 100vh;
     overflow: auto;
-    background-color: rgb(51, 53, 55);
+    background-color: rgb(22, 32, 33);
     color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    font-size: 20px;
 }
 .sidebar svg{
     width: 30px;
     height: 30px;
     color: white;
+}
+#ham{
+    cursor: pointer;
+    margin-left: 1rem;
+}
+.newchat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(100, 125, 146);
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.recent{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.recent:hover{
+    background-color: rgb(29, 36, 31);
+}
+.newchat:hover{
+    background-color: rgb(29, 36, 31);
 }
